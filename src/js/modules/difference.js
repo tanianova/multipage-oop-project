@@ -18,7 +18,6 @@ export default class Difference {
                 items[items.length-1].remove();
             }
         });
-
     }
 
     hideItems(items) {
@@ -27,7 +26,6 @@ export default class Difference {
                 item.style.display = 'none';
             }
         });
-       
     }
 
     init() {

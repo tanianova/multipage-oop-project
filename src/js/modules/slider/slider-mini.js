@@ -73,6 +73,6 @@ export default class MiniSlider extends Slider {
          this.prev.addEventListener('mouseleave', () => this.activateAnimation());
          this.activateAnimation();
       }
-      console.log(this.slidesOnly);
+
    }
 }
